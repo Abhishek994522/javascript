@@ -1,6 +1,8 @@
 // ----------------------    DATA TYPES
 
-// PRIMITIVE DATA TYPES 
+const { captureOwnerStack } = require("react");
+
+// PRIMITIVE DATA TYPES (value type)
 
 /*
     String
@@ -13,7 +15,7 @@
 
 */
 
-// NON-PRIMITIVE DATA TYPES
+// NON-PRIMITIVE DATA TYPES (Reference type)
 
 /*
     Array
@@ -52,3 +54,9 @@ console.log(typeof BigInt)
 console.log(typeof heros)
 console.log(typeof myFunction)
 console.log(typeof myobj)
+
+
+
+
+
+
