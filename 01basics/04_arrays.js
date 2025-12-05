@@ -39,10 +39,10 @@ console.log(myArray);
 myArray.pop()
 console.log(myArray);
 
-myArray.unshift(0)
+myArray.unshift(0) // like push
 console.log(myArray);
 
-myArray.shift()
+myArray.shift() // like pop
 console.log(myArray);
 
 console.log(myArray.includes(9));

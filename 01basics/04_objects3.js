@@ -16,7 +16,7 @@ console.log(instructor);
 // ------------------------- API Talk ----------------------------------------------
 
 /*{
-    // this is json or also json is an object 
+    // this is json and also json is an object 
     // in json the keys are also in the string format
     // true and false are not in the string type beacause they are boolean type
 

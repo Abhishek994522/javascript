@@ -18,7 +18,7 @@ const dc_heros = ["Batman", "superman" , "Flash"]
 // console.log(new_heros);
 
 const another_array = [1,2,3, [4,5,6],7,8,[1,2,3,[4,5,[6,7,8,[9,1]]]]]
-const new_another_array = another_array.flat(Infinity)
+const new_another_array = another_array.flat(Infinity) // flat merges all array elements in one 
 console.log(new_another_array);
 
 

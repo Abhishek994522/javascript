@@ -22,7 +22,7 @@ const myuser = {
 
 // console.log(myuser[mySym]);
 
-// // Object.freeze(myuser)
+// // Object.freeze(myuser) // freezes the value , so if we make any change it didn't happen 
 // myuser.email = "nagraj@gmail.com"
 
 // console.log(myuser);
