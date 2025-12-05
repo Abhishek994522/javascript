@@ -1,4 +1,5 @@
 // singleton
+// object.create 
 
 // objects --  there are two ways to create a object
 // 1) object literals
