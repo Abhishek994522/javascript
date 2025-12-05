@@ -92,3 +92,5 @@ console.log(Arr1);
 // splice change the original array
 
 
+
+
