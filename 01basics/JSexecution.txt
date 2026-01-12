@@ -1,0 +1,11 @@
+JAVASCRIPT EXECUTION CONTEXT 
+
+{} -> Global execution context here we use "this" keyword
+
+1) global execution context
+2) function execution context
+3) eval execution context 
+
+
+{} -> memory creation phase
+   -> execution phase
