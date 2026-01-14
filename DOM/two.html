@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | chai aur code </title>
+</head>
+<body >
+    <!-- <div class="parent">
+        <div class="day">monday</div>
+        <div class="day">teusday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thursday</div>
+    </div> -->
+</body>
+<script>
+   // const parent = document.querySelector('.parent');
+//    console.log(parent);
+//     console.log(parent.children);
+//     console.log(parent.children[1].innerHTML);
+
+    
+    // for(let i=0;i< parent.children.length;i++){
+    //     console.log(parent.children[i].innerHTML);
+        
+    // }
+   // parent.children[1].style.color="green"
+
+    // console.log(parent.firstElementChild.innerHTML);
+    // console.log(parent.lastElementChild.innerHTML);
+
+   //  const dayOne = document.querySelector('.day');
+   //  console.log(dayOne);
+    
+    // console.log(dayOne.parentElement.innerHTML);
+    // console.log(dayOne.nextElementSibling.innerHTML);
+    
+   //  console.log("Nodes : ", parent.childNodes);
+
+   const arr1 = ['abhi','manvi','anushka','urmila']
+   const arr2 = ['red','green','yellow','pink']
+
+   arr1.forEach( (text,index) => mulButton(text, arr2[index]));
+
+   function mulButton(text,bgColor)
+   {
+    const button = document.createElement('button');
+    console.log(button);
+    button.setAttribute('class','firstbutton')
+    button.setAttribute('type','submit')
+    button.style.backgroundColor = `${bgColor}`;
+    button.style.cursor = 'pointer';
+    button.style.padding = '12px'
+    const textnode = document.createTextNode(`${text}`)
+    button.appendChild(textnode)
+    document.body.appendChild(button)
+   }
+
+
+</script>
+</html>
